@@ -1,0 +1,150 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #17174a;
+    color: #fff;
+    width: 100%;
+}
+
+header img {
+    width: 250px;
+}
+
+.container {
+    max-width: 1000px;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    background-image: url('./../images/nav-background.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 35px;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 7.5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    background-color: #00aaff;
+    border-radius: 5px;
+    padding: 5px;
+    font: bold;
+    font-size: 1em;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.left-column {
+    grid-column: 1;
+    text-align: center;
+    height: 100%;
+}
+
+.right-column {
+    grid-column: 2;
+}
+
+.right-column img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.grid-container h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'indie flower', sans-serif;
+}
+
+main span:hover {
+    color: yellow;
+}
+
+.grid-container h3 {
+    font-size: 1.5rem;
+    color: #d272ff;
+}
+
+.grid-container p {
+    font-size: 1rem;
+    max-width: 300px;
+    text-align: center;
+    padding-left: 180px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.buttons .btn {
+    font-size: 1rem;
+    background-color: #00aaff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons .btn:hover {
+    background-color: #d272ff;
+}
+
+
+.profile-pic img {
+    max-width: 5%;
+    border-radius: 7.5px;
+}
+
+footer {
+    margin-top: 25px;
+}
+
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.about-me p {
+    margin-bottom: 35px;
+}

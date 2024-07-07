@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+    background-color: #17174a;
+    color: #fff;
+    width: 100%;
+}
+
+header img {
+    width: 250px;
+}
+
+.container {
+    max-width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5em;
+    background-image: url('./../images/nav-background.png');
+    background-size: cover;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 35px;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 7.5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    background-color: #00aaff;
+    border-radius: 5px;
+    padding: 5px;
+    font: bold;
+    font-size: 1em;
+}
+
+main h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    margin-bottom: 100px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.project img {
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.project .project-details {
+    max-width: 600px;
+
+}
+
+.project h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.project a {
+    font-size: 1em;
+    color: #00aaff;
+    text-decoration: none;
+}
+
+#game-image {
+    width: 350px;
+
+}
+
+#e-commerce-image {
+    width:600px;
+}
+#testing-image {
+    width: 500px;
+}
+.project a:hover {
+    text-decoration: underline;
+}
+
+.project-reverse {
+    flex-direction: row-reverse;
+}
+
+.project-reverse img {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 25px;
+}
+
+footer {
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* about me page */
+
+.about-me {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: center;
+}
+
+.about-me p {
+    margin-bottom: 35px;
+}
